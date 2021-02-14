@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"  media="(max-width:600px)">
+    <link rel="stylesheet" href="" media="(min-width:600px)">
+    <link rel="stylesheet" href="./accordeon.css">
+    <title> FAQ of the site</title>
+</head>
+<body>
+
+        
+        <div class="faqAccordeon_container">
+                <img class="faqAccordeon_image" src="./media/02-FAQaccordeon/images/bg-pattern-mobile.svg" alt="bg-pattern-mobile.svg">
+                <img class="faqAccordeon_starImage" src="./media/02-FAQaccordeon/images/illustration-woman-online-mobile.svg" alt="">
+                <h1 class="FAQ_letters">FAQ</h1>
+ <!----------------------------- este es el accordeon --------->
+                <div class="questionAccordeon">
+                <div class="contentBox">
+                    <div class="label">How many team members can i invite?</div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae eum aliquam magni doloribus et velit, explicabo aspernatur odio, delectus molestias magnam praesentium vitae inventore libero sunt temporibus autem voluptate?</p>
+                    </div>
+                </div>
+                <div class="contentBox">
+                    <div class="label">What is the maximun file upload size?</div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae eum aliquam magni doloribus et velit, explicabo aspernatur odio, delectus molestias magnam praesentium vitae inventore libero sunt temporibus autem voluptate?</p>
+                    </div>
+                </div>
+                <div class="contentBox">
+                    <div class="label">How do i reset my password?</div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae eum aliquam magni doloribus et velit, explicabo aspernatur odio, delectus molestias magnam praesentium vitae inventore libero sunt temporibus autem voluptate?</p>
+                    </div>
+                </div>
+                <div class="contentBox">
+                    <div class="label">Can i cancel my suscription?</div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae eum aliquam magni doloribus et velit, explicabo aspernatur odio, delectus molestias magnam praesentium vitae inventore libero sunt temporibus autem voluptate?</p>
+                    </div>
+                </div>
+                <div class="contentBox">
+                    <div class="label">Do you provide additional support?</div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae eum aliquam magni doloribus et velit, explicabo aspernatur odio, delectus molestias magnam praesentium vitae inventore libero sunt temporibus autem voluptate?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <script>
+        const accordeon = document.getElementsByClassName('contentBox');
+
+        for( i=0 ; i<accordeon.length ; i++ ){
+            accordeon[i].addEventListener( 'click',function(){
+                this.classList.toggle('active')
+            } )
+        }
+
+    </script>
+</body>
+</html>

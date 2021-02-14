@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    align-items: center;
+    background: linear-gradient(148deg, rgb(140, 59, 165) 0%, rgb(20, 85, 122) 100% );
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    min-height: 100vh; 
+    
+}
+
+.faqAccordeon_container
+{   
+    align-items: center;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    min-height: 400px;
+    padding: 20px 0px;
+    width: 380px;
+    position: relative;
+}
+
+
+.faqAccordeon_image
+{
+    position: absolute;
+    top: 10%;
+
+}
+.faqAccordeon_starImage
+{
+    position: absolute;
+    top: -15%
+}
+.FAQ_letters
+{
+    margin-top: 40%;
+}
